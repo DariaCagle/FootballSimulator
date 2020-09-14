@@ -6,11 +6,18 @@ using System.Threading.Tasks;
 
 namespace FootballSimulator
 {
-    class Program
+    public class Player
     {
-        static void Main(string[] args)
-        {
-            Game.GameProcess();
-        }
+        public string Name;
+
+        public Team team;
+
+        public string Place;
     }
+
+    public class GoalKeeper : Player
+    {
+
+    }
+
 }
